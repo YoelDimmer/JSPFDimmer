@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "nombre": "Alimento Eminent Perros 5kg",
+        "precio": 2000,
+        "cantidad": 1,
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/686/599/products/eminent1-9a7bb2bf56ebf21bd915867405645976-640-0.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Alimento Advance Perros 5kg",
+        "precio": 5000,
+        "cantidad": 1,
+        "img": "https://mascotaselmolino.com.ar/9250-thickbox_default/advance-bio-perro-adulto-premium-cordero-small-breed-x-12-kg.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Alimento Upper Gatos 5kg",
+        "precio": 2500,
+        "cantidad": 1,
+        "img": "https://www.petmania.com.ar/wp-content/uploads/2023/04/google-500g.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Alimento Agility Gatos 5kg",
+        "precio": 7500,
+        "cantidad": 1,
+        "img": "https://www.alican.com.ar/wp-content/uploads/2018/04/Agility_Cat_Adultos_1000x1000.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Alimento CatChow Gatos 5kg",
+        "precio": 10000,
+        "cantidad": 1,
+        "img": "https://www.somoswapp.com.ar/media/catalog/product/cache/4e187a3216125186f353d1ef896e6af4/a/d/adultos_pescado_y_pollo_cara_1.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Collar DogPro Perros",
+        "precio": 2500,
+        "cantidad": 1,
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/127/073/products/diseno-sin-titulo-50-bfd1b4aab5561b0aa616664717280099-640-0.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Rascador Nova Gatos",
+        "precio": 4500,
+        "cantidad": 1,
+        "img": "https://d28hi93gr697ol.cloudfront.net/071e89ac-46a5-8ab3/img/Producto/1857/01-1624116428-63212a53b333b.jpeg"
+    }
+  ]

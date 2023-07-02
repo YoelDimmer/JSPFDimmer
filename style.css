@@ -1,0 +1,70 @@
+body{
+    background-color:beige;
+    margin: 20px;
+}
+
+.card-modif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria;
+    width: 18rem;
+    text-align: center;
+    background-color: white;
+  }
+
+#cardProductos, .carrito {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color:beige;
+    margin: 10px;
+}
+
+.divCard{
+    padding: 30px;
+}
+
+.card-carrito{
+    padding: 10px;
+    margin: 10px;
+}
+
+#titulo {
+    color: rgb(65, 54, 54);
+    font-weight: lighter;
+    text-align: center;
+    padding: 20px;
+    background-color: burlywood
+  }
+
+  .botonNews {
+    margin-bottom: 10px;
+  }
+
+  .btn-modif{
+    background-color: green;
+  }
+
+  .btn-modif:hover{
+    background-color: rgb(0, 165, 0)
+  }
+  
+  #formulario{
+    margin: 10px;
+  }
+  
+  .colorFondo {
+    background-color: cadetblue;
+  }
+
+  .btn-verCarrito{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #carritoVer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

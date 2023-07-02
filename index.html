@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final Yoel Dimmer</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!-- Sweet Alert -->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7/dist/sweetalert2.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7/dist/sweetalert2.all.min.js"></script>
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>  
+        <!-- News -->
+        <div class="botonNews">
+            <input type="button" value="¡Dejanos tu email para recibir las mejores ofertas!" class="btn btn-primary btn-modif" id="botonNews">
+            <div>
+                <form id="formulario" style="display:none"> 
+                    <input type="text" id="nombreUser" placeholder="Ingrese su nombre">
+                    <input type="email" id="mailUser" placeholder="Ingrese su mail"> 
+                    <input type="button" id="btnSubmit" value="Enviar" id="btnSubmit">
+                </form>
+            </div>
+        </div>
+        
+        <!-- Titulo principal -->
+        <div id="titulo">
+            <h1>TuMascota.com</h1>
+            <h2>¡Bienvenido! Tenemos los mejores precios en articulos para tu mascota</h2>
+            <h2> Conoce nuestros productos a continuación</h2>
+        </div>
+
+        <!-- Boton Ver Carrito -->
+        <div class="btn-verCarrito">
+            <input type="button" value="Ver carrito" id="btnVerCarrito" class="btn btn-primary"> 
+        </div>
+
+        <!-- Div para modificar en JS -->
+        <div id="cardProductos"></div>
+        <div id="carrito"></div>
+        <div id="carritoVer"></div>
+        <div id="carritoFinal"></div>
+
+        <!-- Script JS -->
+        <script src="./script.js"></script>
+</body>
+</html>
+
